@@ -1,0 +1,93 @@
+body {
+    background-color: #1a1a1a;
+    color: white;
+    font-family: sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+header {
+    padding: 40px;
+    background: #0f172a;
+    border-bottom: 4px solid #007bff;
+}
+
+.grid-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.box {
+    background-color: #0056b3; 
+    padding: 20px;
+    flex: 1; 
+    min-height: 200px;
+    border: 2px solid #007bff;
+}
+
+.news-section {
+    background-color: #cccccc;
+    color: black;
+    margin: 10px 20px;
+    padding: 40px;
+    min-height: 150px;
+}
+
+.team-footer {
+    background-color: #0f172a;
+    margin-top: 20px;
+    padding: 30px;
+    border-top: 4px solid #007bff;
+}
+
+.emails {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+h3, h2 {
+    margin-top: 0;
+}
+
+.dole-vlevo {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 250px;
+    border: 2px solid #00aaff;
+    border-radius: 8px;
+  }
+
+  .dole-vlevo {
+    position: fixed;   
+    bottom: 20px;      
+    left: 20px;       
+    z-index: 1000;     
+    width: 250px;      
+    height: auto;
+}
+
+.news-section {
+    display: flex;          
+    align-items: center;    
+    background-color: #ccc; 
+    padding: 30px;
+    gap: 0;             
+}
+
+.novinky-img {
+    width: 380px;       
+    height: auto;
+    flex-shrink: 0;
+    margin-right: 15px;
+}
+
+.news-content {
+    flex-grow: 1;      
+    text-align: center;   
+}
