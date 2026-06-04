@@ -53,3 +53,41 @@ header {
 h3, h2 {
     margin-top: 0;
 }
+
+.dole-vlevo {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 250px;
+    border: 2px solid #00aaff;
+    border-radius: 8px;
+  }
+
+  .dole-vlevo {
+    position: fixed;   
+    bottom: 20px;      
+    left: 20px;       
+    z-index: 1000;     
+    width: 250px;      
+    height: auto;
+}
+
+.news-section {
+    display: flex;          
+    align-items: center;    
+    background-color: #ccc; 
+    padding: 30px;
+    gap: 0;             
+}
+
+.novinky-img {
+    width: 380px;       
+    height: auto;
+    flex-shrink: 0;
+    margin-right: 15px;
+}
+
+.news-content {
+    flex-grow: 1;      
+    text-align: center;   
+}
